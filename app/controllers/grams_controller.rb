@@ -1,7 +1,10 @@
 class GramsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :show]
+  before_action :authenticate_user!, only: [:new, :create, :show, :edit]
 
   def index
+  end
+
+  def edit
   end
 
   def show
